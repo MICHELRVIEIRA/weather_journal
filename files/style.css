@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+h1 {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: #53cbed;
+    color: #014052;
+}
+
+/* Main */
+
+/*Form*/
+
+p {
+    padding: 2% 0 1% 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label,
+input,
+textarea {
+    padding: 1%;
+    width: 30%;
+}
+
+input {
+    margin-left: 0.5%;        
+}
+
+textarea {
+    margin-left: 0.5%;
+    height: 15vh;
+}
+
+button {
+    margin-top: 1.5%;
+    font-size: 110%;
+    border: none;
+    color: #014052;
+    background-color: #53cbed;
+    border-radius: 7%;
+    padding: 0.7%;
+}
+
+/*Section*/
+
+section {
+    padding: 1.5% 0 0 35%;
+}
+
+h2 {
+    padding-bottom: 1.5%;
+}
+
+li {
+    list-style: none;
+    padding: 1% 1% 1% 0.4%;
+}
